@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+/*  your css code here. If applicable 
+   const newRow = document.createElement("tr");
+
+  // Create and append cell elements to the new row:
+  const cell1 = document.createElement("td");
+  cell1.textContent = "New Row, Cell 1";
+  newRow.appendChild(cell1);
+
+  const cell2 = document.createElement("td");
+  cell2.textContent = "New Row, Cell 2";
+  newRow.appendChild(cell2);
+
+  // Insert the new row before the first row of the table:
+  const table = document.getElementById("myTable");
+  table.insertBefore(newRow, table.rows[0]);*/
